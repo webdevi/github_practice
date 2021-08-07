@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+    <title>네이버 : 로그인</title>
+    <script src="https://kit.fontawesome.com/984946bf85.js" crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="mainWrap">
+            <!-- Header -->
+            <header>
+                <div class="langWrap">
+                    <select name="lang">
+                        <option value="ko_KR">한국어</option>
+                        <option value="en_US">English</option>
+                        <option value="zh-Hans_CN">中文(简体)</option>
+                        <option value="zh-Hant_TW">中文(台灣)</option>
+                    </select>
+                </div>
+                <div class="logoWrap">
+                    <img src="image/logo.png"/>
+                </div>
+            </header>
+            <!-- section -->
+            <section class="loginWrap">
+                <div class="loginInputWrap">
+                    <div class="inputId">
+                        <input class="inputr" type="text" class="id" placeholder="로그인"/>
+                    </div>
+                    <div class="inputPwd">
+                        <input class="inputr" type="password" placeholder="비밀번호"/>
+                    </div>
+                    <div class="loginBtnWrap">
+                        <button class="LoginBtn">로그인</button>
+                    </div>
+                </div>
+                <div class="loginOptionWrap">
+                    <div div class="stayLogin">
+                        <i class="far fa-check-circle"></i>
+                        <span>로그인 상태 유지</span>
+                    </div>
+                    <ul>
+                        <li>IP보안<span>ON</span></li>
+                        <li>일회용 로그인<i class="far fa-question-circle"></i></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="helpWrap">
+                <ul class="help">
+                    <li>아이디 찾기</li>
+                    <li>비밀번호 찾기</li>
+                    <li>회원가입</li>
+                </ul>
+                <div class="banner">
+                    <img src="image/banner.png" alt="">
+                </div>
+            </section>
+            
+            <!-- footer -->
+            <footer>
+                <ul class="info">
+                    <li>이용약관</li>
+                    <li>개인정보 처리방침</li>
+                    <li>책임의 한계와 법적고지</li>
+                    <li>회원정보 고객센터</li>
+                </ul>
+                <span><img src="image/logo.png"/> Copyright © <strong>NAVER Corp.</strong> All Rights Reserved.</span>
+            </footer>
+        </div>
+    </div> 
+</body>
+</html>
